@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px !important;
+    padding: 10px !important;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none !important;
+    white-space: nowrap;
+    overflow-y: hidden;
+  
+}
+  
+  

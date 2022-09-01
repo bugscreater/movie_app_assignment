@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: aliceblue;
+  overflow-x: hidden; 
+  
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  color:#fff;
+  width: 100% !important;
+  margin: 0 !important;
+  padding:  0 !important;
+  background: black;
+  width: 80vw;
+ 
+}
+
+.search_box{
+  margin: auto;
+  width: 30%;
+  align-items: center;
+  
+
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+a:link, a:visited {
+ 
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1080px) {
+  .heading{
+    display: none;
+  }
+  .search_box{
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    padding: 10px 15px;
+  }
+  
+}
